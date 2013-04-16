@@ -5,7 +5,7 @@ require "activerecord-wrap-with-connection/version"
     :find, :first, :last, :all, :destroy, :destroy_all, :exists?, :delete, :delete_all, :update, :update_all, :find_each, :find_in_batches, :select, :group, :order, :reorder, :limit, :joins, :where, :preload, :eager_load, :includes, :from, :lock, :readonly, :having, :create_with, :count, :average, :minimum, :maximum, :sum, :calculate, :find_by_sql, :count_by_sql, :quoted_table_name, :reset_sequence_name, :table_exists?, :columns, :quote_value, :sanitize, :quote_bound_value, :encode_quoted_value
   ],
   ActiveRecord::Base => [:create, :quote_value],
-  ActiveRecord::Associations::AssociationCollection => [:initialize, :find, :find_target, :load_target, :count, :group, :order, :limit, :joins, :where, :preload, :eager_load, :includes, :from, :lock, :readonly, :having],
+  ActiveRecord::Associations::CollectionAssociation => [:initialize, :find, :find_target, :load_target, :count, :group, :order, :limit, :joins, :where, :preload, :eager_load, :includes, :from, :lock, :readonly, :having],
   ActiveRecord::Associations::HasAndBelongsToManyAssociation => [:insert_record, :delete_records],
   ActiveRecord::Associations::HasManyThroughAssociation => [:construct_conditions],
   ActiveRecord::Associations::HasOneAssociation => [:construct_sql],
